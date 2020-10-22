@@ -1,9 +1,11 @@
 # kakutei
-* 使い方
+* 使い方<br>
 Google Chormeでブラウザを開き、sample_kakutei_check.htmlのファイルをドラッグ＆ドロップしてください。
+<br>
 各項目に数値を入れて「診断」ボタンを押すと、納税額と確定申告時の控除額が計算されます。
+<br>
 
-* 算式用の数値
+* 算式用の数値<br>
 控除換算率_医療費(項目名：iryouhi_pe) = 0.8;
 控除換算率_社会保険料(項目名：shakaihoken_per) = 0.8;
 控除換算率_生命保険料(項目名：seimeihoken_per) = 0.8;
