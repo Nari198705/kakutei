@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main_kakutei.css" />
+    <script src="main_kakutei.js"></script>
+</head>
+
+<body>
+    <form name="myFORM">
+        <label>もしあなたの現状が以下の通りなら、確定申告で数十万単位のお金が返ってきます。正確な値を算出したい方は、数値・選択肢を変更して診断ボタンをクリックしてください。</label>
+        <hr>
+        <label>年収の額面<input type="number" name="年収" value="4000000"></label>
+        <hr>
+        <label>年間賞与<input type="number" name="賞与" value="600000"></label>
+        <hr>
+        <label>医療費の月次平均<input type="number" name="医療費" value="10000"></label>
+        <hr>
+        <label>社会保険料の月次平均<input type="number" name="社会保険料" value="6000"></label>
+        <hr>
+        <label>生命保険料の月次平均<input type="number" name="生命保険料" value="3000"></label>
+        <hr>
+        <select name="配偶者">
+            <option value="0">配偶者なし</option>
+            <option value="380000">配偶者がいるが、共働きではない</option>
+            <option value="0">配偶者がいて、共働き</option>
+        </select>
+        <hr>
+        <label><input type="checkbox" name="子供の有無" value="380000">16歳以上の子供がいる</label>
+        <hr>
+        <label>ふるさと納税した総額<input type="number" name="ふるさと納税" value="10000"></label>
+        <hr>
+        <label>住宅ローン残高<input type="number" name="住宅ローン残高" value="3000000"></label>
+        <hr>
+        <button onclick="showSum()">診断</button>
+    </form>
+</body>
+
+</html>
