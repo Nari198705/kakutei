@@ -1,0 +1,15 @@
+body {
+    background: #eeeeee;
+    font-family: Meiryo;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+div {
+  background: #ffffff;
+  width: 800px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin: 30px auto;
+}
